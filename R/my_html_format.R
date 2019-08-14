@@ -22,7 +22,7 @@ my_html_format = function(toc = TRUE, ...) {
     toc_float = TRUE,
     fig_width = 6.5,
     fig_height = 4,
-    theme = "flatly",
+    theme = "Cerulean",
     code_folding = "none",
     css = css,
     number_sections = TRUE,
