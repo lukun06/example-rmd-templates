@@ -25,7 +25,7 @@ my_html_format = function(toc = TRUE, ...) {
     theme = "paper",
     code_folding = "none",
     css = css,
-    number_sections = TRUE,
+    number_sections = FALSE,
     includes = rmarkdown::includes(after_body = footer),
     ...
   )
