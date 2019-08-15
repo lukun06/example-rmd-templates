@@ -19,9 +19,7 @@ my_html_format = function(toc = TRUE, ...) {
   # call the base html_document function
   rmarkdown::html_document(
     toc = toc,
-    toc_float:
-      collapsed: false
-      smooth_scroll: false
+    toc_float = TRUE,
     fig_width = 6.5,
     fig_height = 4,
     theme = "flatly",
