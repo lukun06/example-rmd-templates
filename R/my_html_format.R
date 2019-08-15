@@ -19,10 +19,12 @@ my_html_format = function(toc = TRUE, ...) {
   # call the base html_document function
   rmarkdown::html_document(
     toc = toc,
-    toc_float = TRUE,
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
     fig_width = 6.5,
     fig_height = 4,
-    theme = "lumen",
+    theme = "flatly",
     code_folding = "none",
     css = css,
     number_sections = TRUE,
