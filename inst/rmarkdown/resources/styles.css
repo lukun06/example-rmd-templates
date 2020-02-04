@@ -28,3 +28,7 @@ background: #e3eff8;
 table tr:nth-child(even){
 background: #f1f5fb;
 }
+
+details {
+    padding-left: 20px;
+}
